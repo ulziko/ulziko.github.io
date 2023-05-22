@@ -11,12 +11,13 @@ h1{
 }
 ul{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto ;
 }
 li{
     list-style:none;
 }
 iframe{
-    width: max-content;
+    width: 80%;
     margin:10px;
+    height: 300px;
 }
