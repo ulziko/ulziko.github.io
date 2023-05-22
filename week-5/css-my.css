@@ -1,0 +1,191 @@
+body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: max-content;
+}
+h3,.profile-content>p,.profile-description{
+    color: white;
+    font-size: 10px;
+}
+/* leftside menu items */
+    .responsive-header,.sidebar-menu{
+        background-color: #5F6D7E;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    }
+
+    .social-icons>ul{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    .main-navigation{
+        padding-top: 20px;
+    }
+
+    ul.navigation{
+        padding-left: 0px;
+    }
+
+    li{
+        list-style: none;
+    }
+    .profile-image>img{
+        width: 40%;
+        height: auto;
+        border-radius: 100%;
+        border: white 2px solid;
+    }
+    .profile-title{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .main-navigation>ul>li:hover{
+        background-color: #586575;
+    }
+    ul>li>a>i.fa{
+        font-size: 15px;
+        padding: 10px;
+    }
+    li>a{
+        font-size: 10px;
+        color: #ffffff;
+    }
+    .navigation> li>a{
+        margin-left: 15px;
+    }
+    .social-icons>ul>li>a>i.fa{
+        font-size: 12px;
+        width: 25px;
+        color: #ffffff;
+    }
+    .main-navigation>ul>li>a:hover{
+        color: #ffffff;
+    }
+    .toggle-menu{
+        color: #ffffff;
+    }
+    .top-section{
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+/* banner section */
+    .banner-bg{
+        font-family: "RooneySans-Regular",
+        "Lucida Sans",
+        "Lucida Grande",
+        "Lucida Sans Unicode",
+        "Trebuchet MS",
+        sans-serif;
+        background-image: url(img/7.jpg);
+        -webkit-filter: grayscale(20px);
+        background-position: center;
+        grid-column-start:2;
+        grid-column-end: 3;
+        height: 400px;
+        color: white;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .banner-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(72, 81, 141, 0.3);
+    }
+    .widget-title{
+        font-family: "RooneySans-Regular", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #515050;
+        margin-bottom: 15px;
+    }
+    .social-icons>ul>li>a>i.fa:hover{
+        color: rgb(5, 4, 36);
+    }
+   
+ /* main content */
+    .main-content{
+        grid-column-start:2;
+        width: 100%;
+    }
+    .about-image{
+        border: #d2d2d2 3px solid;
+    }
+    .col-md-12{
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+        color: #87888a;
+        font-size:10px ;
+    }
+    .project-item>img{
+        width: 100%;
+        border: #ffffff 1px solid;
+    }
+    .col-md-4.col-sm-6{
+        padding:0;
+    }
+    .content-wrapper{
+        padding:5%;
+    }
+    .about-image>img{
+        width: 100%;
+        height: auto;
+    }
+    .welcome-text{
+        margin-left: 7%;
+        z-index:2;
+    }
+    .inside{
+        display: none;
+    }
+    .col-md-12>p{
+        margin-top:15px;
+    }
+    .rov::after{
+        height: 3px;
+    }
+    .col-md-4>input,.col-md-12>textarea{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border:#9E9E9E  1px solid;
+        width: 100%;
+    }
+    fieldset.col-md-4.col-sm-6{
+        padding-left: 5px;
+        padding-right:5px;
+    }
+    input{
+        color: #f2f2f29a;
+        border:#9E9E9E  1px solid;
+        font-size: 10px;
+        padding-left: 10px;
+        height: 30px;
+    }
+    .col-md-12.col-md-4.col-sm-6{
+        padding:0px;
+    }
+    textarea{
+        width:100%;
+    }
+    input.button.big.default{
+        color: #ffffff;
+        background-color: #5F6D7E;
+        text-transform: uppercase;
+    }
+    hr{
+        border-top: 3px solid #d2d2d2;
+        width: 100%;
+    }
+     p>a{
+        visibility: unset;
+     }

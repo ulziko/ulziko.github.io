@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab-8-1</title>
+    </head>
+    <body>
+        <script>
+            var name2=null;
+            var bool=1;
+           let name1=prompt("нэрээ оруулна уу!");
+           length=name1.length;
+           name1=name1.split("");
+           for(i=1;length/2>=i;i++){
+                if(name1[i-1]==name1[length-i]){
+                }
+                else{
+                    bool=0;
+                }
+           }
+           if(bool==0){
+            document.write("Палиндром нэр биш бнөө");
+           }
+           else{
+            document.write("Палиндром нэр  мөн2");
+           }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab-8-3</title>
+    </head>
+    <body>
+        <script>
+            var dist=prompt(" zaigaa oruulaarai jich:hervee negj oruulaagui bol avvtomataar metreer bodogdono");
+            var negj=parseInt(dist);
+            var dist=dist.split("");
+            for( var i=0;i<dist.length;i++){
+                if(dist[i]=="k" && dist[i+1]=="m"){
+                    negj*=1000;
+                }
+            }
+            var sec =0;
+            var sub=25*1000/3600-18*1000/3600;
+            while(negj>0){
+                negj-=sub;
+                sec++;
+            }
+            var time=parseInt(sec/3600);
+            var min=parseInt((sec-(time*3600))/60);
+            sec=sec-(time*3600)-(min*60);
+            document.write(time + " tsag " + min + " minut " + sec + " second bolohnee");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab-8-4</title>
+    </head>
+    <body>
+        <script>
+            var suuliintoot=0;
+            var orts;
+            var davhar;
+            var toot=prompt("toot oruul: ");
+             if(toot%36==0){
+                orts=parseInt(toot/36);
+             }
+             else{
+                orts=parseInt(toot/36)+1;
+             }
+    
+            document.write(orts+" ortsnii ");
+            toot-=(orts-1)*36;
+            if(toot%4==0){
+                davhar=parseInt(toot/4);
+            }
+            else{
+                davhar=parseInt(toot/4)+1;
+            }
+            document.write(davhar+" davhariin ");
+            toot-=(davhar-1)*4;
+            document.write(toot+" toot");
+        </script>
+    </body>
+</html>

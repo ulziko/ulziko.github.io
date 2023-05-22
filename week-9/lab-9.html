@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>LAB-9</title>
+        <link rel="stylesheet" href="lab-9.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top">
+            <div class="head">
+                <h1>Currency value converter</h1>
+            </div>
+        </div>
+        <div class="main">
+            <div class="wrap">
+                <div class="converter">
+                    <select name="from" id="from_currency"></select>
+                    <input id="input" type="text"  pattern="[0-9]" placeholder="enter your value here" required>
+                    <select name="to" id="to_currency"></select>
+                    <input id="output" type="text" placeholder="output shows here" disabled>
+                </div>
+                <div class="calculator">         
+                    <button class="delete btn" >del</button>
+                    <button class="clear btn">CL</button>
+                    <button class="num btn"  value=".">.</button>
+                    <button class="num btn" value="1">1</button>
+                    <button class="num btn" value="2">2</button>
+                    <button class="num btn"  value="3">3</button>
+                    <button class="num btn"  value="4">4</button>
+                    <button class="num btn"  value="5">5</button>
+                    <button class="num btn"  value="6">6</button>
+                    <button class="num btn"  value="7">7</button>
+                    <button class="num btn"  value="8">8</button>
+                    <button class="num btn"  value="9">9</button>
+                    <button class="num btn"  value="0">0</button>
+                    <button class="num btn"  value="000">000</button>
+                    <input  class="btn" id="submit" type="submit">
+                </div>
+            </div>
+            <div class="img"> 
+                <img src="currency-converting.png">
+            </div>
+            
+        </div>
+        <script src="lab-9.js"></script>
+    </body>
+</html>

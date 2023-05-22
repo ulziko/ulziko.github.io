@@ -1,0 +1,242 @@
+
+body{
+    display: grid;
+    grid-template-columns: 67% 33%;
+    grid-auto-rows: max-content;
+    margin:0;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family:
+    "Lucida Sans Unicode",
+    sans-serif;
+    font-weight: lighter;
+}
+.pink{
+    background-color: #f61067;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    border: #f61067 2px solid;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: 
+    "Lucida Sans Unicode",
+    sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* top section */
+    .top-section{
+        background-color: #13124F;
+        width:100%;
+        height: 350px;
+        margin: 0;
+        color: white;
+        grid-column: 1/ span 2;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        background-color: #1b1b6c ;
+        height: 50px;
+        padding-left: 15px;
+    }
+    .logo>img{
+        height: 25px;
+        width: auto;
+    }
+    .prompt{
+        padding: 30px;
+    }
+    .prompt>p{
+        font-size: 17px;
+        margin: 0px;
+        font-family:
+        "Lucida Sans Unicode",
+        sans-serif;
+        margin-bottom: 10px;
+    }
+    .prompt>button{
+        width: 100px;
+    }
+/* left section */
+    .left-section{
+        grid-column: 1;
+        margin: 25px;
+        margin-left:30px;
+    }
+    h2{
+        font-family:'spark880091',
+        'Ellipsis',
+        'FontspringNotDef',
+        'sans-serif';
+        color: #353434;
+        font-weight: lighter;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .br{
+        background-color: #e6e6e6;
+        height: 2px;
+    }
+    .left-section>p{
+        color: #3c274b;
+        font-size: 13px;
+        font-weight: bolder;
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .video{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+    .video>iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;      
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .alert{
+        margin-top:20px;
+        background-color: #9090A5;
+        height:50px;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding-left:15px;
+    }
+    i{
+        padding: 10px;
+    }
+/* right section */
+    .right-section{
+    grid-column: 2;
+    padding: 5px;
+    }
+    .right-section>button.pink{
+        margin-top: 30px;
+        width: 100%;
+        padding:0;
+    }
+    .boxing{
+        background-color:#13124F;
+    }
+    .sec-body{
+        margin:15px;
+    }
+    .sec-body>p{
+        margin: 0;
+        color: white;
+    }
+    input{
+        background-color:#1b1b6c;
+        border:none;
+        border-top: #9090A5 2px solid;
+        border-bottom: #9090A5 3px solid;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top:5px;
+        padding-bottom: 5px;
+        color: #ffff;
+        display: flex;
+    }
+    .inp{
+        margin-top: 20px;
+        margin-bottom:10px;
+        width: 100%;
+        display: block;
+    }
+    ::placeholder{
+        color: #9090A5;
+        font-family:'spark880091',
+        'Ellipsis',
+        'FontspringNotDef',
+        'sans-serif';
+        font-weight: bold;
+    }
+    .footer{
+        background-color: #551eba;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer>a{
+        color: white;
+        font-size: 10px;
+        font-family:'spark880091',
+        'Ellipsis',
+        'FontspringNotDef',
+        'sans-serif';
+    }
+    .vote{
+        border:  #e6e6e6  2px solid;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .vote>p{
+        color: #353434;
+       font-weight: bold;
+       margin: 0;
+       margin-top: 10px;
+    }
+    
+    progress{
+        width: 100%;
+        appearance: unset;
+        height: 10px;
+    }
+    progress::-webkit-progress-value{
+        background-color: #f61067;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: #2AD392;
+    }
+    .green{
+        background-color: transparent;
+        text-transform: uppercase;
+        color:#2AD392;
+        font-size: 11px;
+        padding: 5px;
+        border: #2AD392 2px solid;
+        margin-top: 10px;
+        font-weight: bolder;
+        font-family: 
+        "Lucida Sans Unicode",
+        sans-serif;
+    }
+    .bt2>button{
+        margin-top: 20px;
+        width:45%;
+    }
+    .bt2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .foot{
+        background-color: #13124F;
+        grid-column: 1/ span 2;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+    .foot>p{
+        color: #ffff;
+        margin-left: 30px;
+    }

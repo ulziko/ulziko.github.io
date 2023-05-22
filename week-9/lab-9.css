@@ -1,0 +1,128 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image: linear-Gradient(rgb(215, 136, 225),rgb(156, 142, 237));
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Lobster','cursive';
+    font-size:90px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    text-shadow: 6px 6px  15px rgb(100, 113, 130);
+}
+h1:hover{
+    color:bisque;
+    scale: 1.1;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.calculator{
+    background-image: linear-Gradient(rgb(243, 245, 246),rgb(156, 164, 175));
+    width:400px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content:center;
+    border: 5px solid rgb(133, 146, 164);
+    margin-bottom: 20px;
+}
+.btn{
+    justify-self: center;
+    box-shadow: 6px 6px  15px rgb(100, 113, 130);
+    height:70px;
+    width: 90px;
+    font-size: 18px;
+    color:rgb(68, 80, 99);
+    margin: 10px;
+    border-radius:30px;
+    border-color: transparent;
+    background-color: rgb(188, 196, 199); 
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: beige;
+    scale: 1.1;
+
+}
+#submit{
+    background-color: #FDA738;
+    color: antiquewhite;
+}
+#submit:hover{
+    background-color: #fad100;
+    scale:1.1;
+}
+img{
+    width:50%;
+    float: right;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style:preserve-3d;
+}
+select{
+    background-color:rgb(218, 225, 228);
+    height:60px;
+    width: 80px;
+    font-size: 18px;
+    color:rgb(68, 80, 99);
+    border-radius:10px;
+    border-color: transparent;
+    text-align: center;
+    border: 5px solid rgb(133, 146, 164);
+}
+select:hover{
+    background-color:rgb(248, 217, 80);
+    scale:1.1;
+}
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:310px;
+    background-color:rgb(243, 245, 246);
+    height:50px;
+    border-radius: 20px;
+    border: 5px solid rgb(133, 146, 164);
+    text-align: center;
+    color:rgb(68, 80, 99);
+    font-size: 25px;
+}
+input:hover{
+    background-color: rgb(248, 217, 80);
+    scale:1.05;
+
+}
+.converter{
+    width:420px;
+}
+.wrap{
+    margin-left: 7vw;
+}
+@media only screen and (max-width: 1000px){
+    .img{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 60px;
+    }
+}

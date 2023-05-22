@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab-8-5</title>
+        <style>
+            #square{
+                height: 100px;
+                width:100px;
+                background-color: #adff2f;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="square"></div>
+        <script>
+            const time=(new Date()).getHours();
+            document.write(time);
+            if(time<6 || time>18){
+                const element = document.getElementById('square');
+                element.style.backgroundColor ='red';
+                element.style.display="flex";
+                element.style.right="10px"
+                element.style.bottom="10px";
+            }
+        </script>
+        
+    </body>
+</html>

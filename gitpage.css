@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(rgb(218, 198, 254),rgb(123, 123, 197));
+    background: cover;
+    background-position: center;
+}
+h1{
+    font-size:70px;
+    color:rgb(75, 138, 145);
+    font-style:italic;
+    text-align: center;
+}
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+li{
+    list-style:none;
+}
+iframe{
+    width: max-content;
+    margin:10px;
+}

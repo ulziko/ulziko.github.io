@@ -1,0 +1,91 @@
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(back.jpg);
+    background-position: center;
+}
+.container {
+    position: absolute;
+    width:60%;
+    height:350px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 80px;
+    margin-left: -10%;
+}
+
+.header1 {
+    position: absolute;
+    width:90%;
+    transform: translate(6%,-20px);
+    height: 60px;
+    background: rgb(230, 226, 226,0.7);
+    color: brown;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+section{
+     position: relative;
+     width:60%;
+     height:400px;
+     background: rgb(230, 226, 226,0.5);
+     border-radius: 8px;
+     margin: auto;
+     margin-top: 60px;
+}
+form input{
+    width: 90%;
+    padding: 10px 5px;
+    border:0px;
+    margin: 8px 0px;
+    border-bottom: 2px solid black;
+    background: transparent;
+
+}
+.container form{
+    position: absolute;
+    margin: 20px;
+}
+
+input[type="radio"]{
+     width: 5%;
+}
+
+input[type="date"]{
+    width: 75%;
+}
+
+.btn{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+input[type="submit"]{
+    width:100px;
+    height:40px;
+    background-color: transparent;
+    border: 2px solid  black;
+}
+.images{
+    transform: translate(60%,40%);
+    position: absolute;
+}
+.end{
+    align-items: center;
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
